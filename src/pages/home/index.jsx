@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Ticket from "../../components/Ticket";
+import Ticket from "../../components/ticket";
 import Header from "../../components/Header";
 import CreateTicketModal from "../../components/CreateTicketModal";
 import {fetchTickets} from "../../api/api";

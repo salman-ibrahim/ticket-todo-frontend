@@ -1,9 +1,5 @@
 import React, {useEffect, useState} from "react";
-import axios from "axios";
-
-import Header from "../../components/Header";
-import CreateTicketModal from "../../components/CreateTicketModal";
-import {createTask, fetchTickets, updateTask} from "../../api/api";
+import {createTask, updateTask} from "../../api/api";
 import { setTicket } from "../../store";
 import {useDispatch, useSelector} from "react-redux";
 import {useParams} from "react-router-dom";

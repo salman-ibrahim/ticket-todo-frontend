@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from "react";
-import axios from "axios";
 import Ticket from "../../components/Ticket";
 import Header from "../../components/Header";
-import Modal from "../../components/Modal";
 import CreateTicketModal from "../../components/CreateTicketModal";
 import {fetchTickets} from "../../api/api";
 import { setTickets } from "../../store";
